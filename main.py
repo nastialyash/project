@@ -1,6 +1,6 @@
 start = int(input("Enter your number"))
- end = int(input("Enter your number"))
- for i in range(start,end + 1):
+end = int(input("Enter your number"))
+for i in range(start,end + 1):
     if i%7 ==0:
         print(i)
         
@@ -13,7 +13,7 @@ print("All numbers descending order")
 for i in range(end,start,- 1):
       print(i)
                     
- print("all number %7")                
+print("all number %7")                
 for i in range(start,end): 
           if i%7 ==0:
               print(i)
